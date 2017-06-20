@@ -1,0 +1,19 @@
+---
+redis_connection_params:
+  db: <db>
+
+google_api_key: <key>
+
+telegram_token: <token>
+
+users:
+- id: 2081319
+  kind: apartment
+  rooms: 1
+  min_price: 25000
+  max_price: 40000
+  max_time_to_subway: 10
+  work_coordinates:
+    lat: 55.791582
+    lng: 37.705607
+  max_time_to_work: 40
